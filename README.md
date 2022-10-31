@@ -103,5 +103,31 @@ _✨ NoneBot 插件简单描述 ✨_
 |:-----:|:----:|:----:|:----:|:----:|
 | 指令1 | 主人 | 否 | 私聊 |配置说明 |
 | 指令2 | 群员 | 是 | 群聊 |配置说明 |
+
+<table> 
+  <tr align="center">
+    <th> 指令 </th>
+    <th> 权限 </th>
+    <th> 需要@ </th>
+    <th> 范围 </th>
+    <th colspan="2"> 说明 </th>
+  </tr>
+  <tr align="center">
+    <td> 指令1 </td>
+    <td> 主人 </td>
+    <td> 否 </td>
+    <td> 私聊 </td>
+    <td> 配置说明 </td>
+    <td rowspan="2"> </td>
+  </tr>
+  <tr align="center">
+    <td> 指令2 </td>
+    <td> 群员 </td>
+    <td> 是 </td>
+    <td> 群聊 </td>
+    <td> 配置说明 </td>
+  </tr>
+</table>
+
 ### 效果图
 如果有效果图的话
