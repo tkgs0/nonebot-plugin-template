@@ -37,54 +37,67 @@ _✨ NoneBot 插件简单描述 ✨_
 
 ## 💿 安装
 
+**nb-cli安装, 包管理器安装  二选一**
+
 <details>
 <summary>使用 nb-cli 安装</summary>
+
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
+    ```sh
     nb plugin install nonebot-plugin-example
+    ```
 
 </details>
 
 <details>
 <summary>使用包管理器安装</summary>
-在 nonebot2 项目的插件目录下, 打开命令行, 根据你使用的包管理器, 输入相应的安装命令
+
+在 nonebot2 项目的插件目录下, 打开命令行,
+
+**根据你使用的包管理器, 输入相应的安装命令**
 
 <details>
 <summary>pip</summary>
 
+    ```sh
     pip install nonebot-plugin-example
+    ```
+
 </details>
 <details>
 <summary>pdm</summary>
 
+    ```sh
     pdm add nonebot-plugin-example
+    ```
+
 </details>
 <details>
 <summary>poetry</summary>
 
+    ```sh
     poetry add nonebot-plugin-example
+    ```
+
 </details>
 <details>
 <summary>conda</summary>
 
+    ```sh
     conda install nonebot-plugin-example
-</details>
-
-打开 nonebot2 项目的 `bot.py` 文件, 在其中写入
-
-    nonebot.load_plugin('nonebot_plugin_example')
+    ```
 
 </details>
+</details>
 
-<details>
-<summary>从 github 安装</summary>
-在 nonebot2 项目的插件目录下, 打开命令行, 输入以下命令克隆此储存库
+打开 bot项目下的 `pyproject.toml` 文件,
 
-    git clone https://github.com/owner/nonebot-plugin-example.git
+在其 `plugins` 里加入 `nonebot_plugin_example`
 
-打开 nonebot2 项目的 `bot.py` 文件, 在其中写入
-
-    nonebot.load_plugin('src.plugins.nonebot_plugin_example')
+    ```toml
+    plugins = ["nonebot_plugin_example"]
+    ```
 
 </details>
 
@@ -98,7 +111,9 @@ _✨ NoneBot 插件简单描述 ✨_
 | 配置项2 | 否 | 无 | 配置说明 |
 
 ## 🎉 使用
+
 ### 指令表
+
 | 指令 | 权限 | 需要@ | 范围 | 说明 |
 |:-----:|:----:|:----:|:----:|:----:|
 | 指令1 | 主人 | 否 | 私聊 |配置说明 |
