@@ -44,9 +44,7 @@ _✨ NoneBot 插件简单描述 ✨_
 
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    ```sh
     nb plugin install nonebot-plugin-example
-    ```
 
 </details>
 
@@ -60,33 +58,25 @@ _✨ NoneBot 插件简单描述 ✨_
 <details>
 <summary>pip</summary>
 
-    ```sh
     pip install nonebot-plugin-example
-    ```
 
 </details>
 <details>
 <summary>pdm</summary>
 
-    ```sh
     pdm add nonebot-plugin-example
-    ```
 
 </details>
 <details>
 <summary>poetry</summary>
 
-    ```sh
     poetry add nonebot-plugin-example
-    ```
 
 </details>
 <details>
 <summary>conda</summary>
 
-    ```sh
     conda install nonebot-plugin-example
-    ```
 
 </details>
 </details>
@@ -95,9 +85,7 @@ _✨ NoneBot 插件简单描述 ✨_
 
 在其 `plugins` 里加入 `nonebot_plugin_example`
 
-    ```toml
     plugins = ["nonebot_plugin_example"]
-    ```
 
 </details>
 
